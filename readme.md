@@ -1,8 +1,13 @@
 # Principio / Padrão - Tell, don't ask e Fail Fast
 
-O padrão consiste primeiramente em enviar para a classe o metodo responsável que irá realizar a operação.
-Após a criação do método, verificamos se em seu escopo possui alguma validação a ser executada como um aninhamento de ifs. 
-Caso exista iremos inverter lógica para realizar a falha em primeiro lugar, pois assim evitamos que a mesma repasse em todos os ifs.
+O padrão normalmente consiste em refatorar o método que possui uma lógica ciclomática. 
+Ao refatorar, devemos dar prioridade a falha que poderá ocorrer e eliminar os aninhamentos de ifs.
+
+*Passos realizados :*
+* Ao iniciar a refatoração do método, verificamos se em seu escopo possui alguma validação a ser executada como um aninhamento de ifs. 
+* Caso exista iremos inverter lógica para realizar a falha em primeiro lugar, pois assim evitamos que a mesma repasse em todos os ifs.
+* Ao final movemos o método que irá executar para o enum e assim executará conforme o status enviado.
+
 
 ## After 
 
