@@ -4,7 +4,8 @@ O padrão consiste primeiramente em enviar para a classe o metodo responsável q
 Após a criação do método, verificamos se em seu escopo possui alguma validação a ser executada como um aninhamento de ifs. 
 Caso exista iremos inverter lógica para realizar a falha em primeiro lugar, pois assim evitamos que a mesma repasse em todos os ifs.
 
-** After 
+## After 
+
     @GetMapping("/notapply")
     public void example(@RequestBody Post post) throws ExceptionCustom {
         if(post.getStatus().equals(Status.DRAFT)){
