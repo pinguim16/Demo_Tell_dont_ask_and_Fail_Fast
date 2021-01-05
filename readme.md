@@ -1,6 +1,6 @@
 # Principio / Padrão - Tell, don't ask e Fail Fast
 
-O padrão normalmente consiste em refatorar o método que possui uma lógica ciclomática. 
+O padrão normalmente consiste em refatorar o método que possui uma lógica ciclomática e transferir a responsabilidade desse mesmo método para uma classe ou enum.
 Ao refatorar, devemos dar prioridade a falha que poderá ocorrer e eliminar os aninhamentos de ifs.
 
 
