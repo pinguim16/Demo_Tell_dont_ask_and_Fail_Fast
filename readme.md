@@ -12,6 +12,7 @@ O padrão Tell, Don't Ask (Diga,não pergunte) é o principio de Orientção de 
     }
 
 Quando temos esse tipo de código que pergunta e depois toma a decisão, esse códgido não está seguindo o padrão Tell, don't ask.
+
 O código abaixo já está implementando o padrão :
     
     NotaFiscal nf = new NotaFiscal();
