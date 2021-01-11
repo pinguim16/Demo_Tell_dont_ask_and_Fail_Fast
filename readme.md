@@ -56,3 +56,5 @@ Na sequência aplicamos o principio Tell, Don't Ask e o Fail Fast, que consiste 
         post.getStatus().alterStatus(post);
     }
 
+Contributors
+Muito Obrigado [Carlos Eduardo](https://github.com/CarlosEduardo12)
