@@ -22,7 +22,7 @@ O código abaixo já está implementando o padrão :
 O principio poder ser utilizado para quebrar uma lógica ciclomática e transferir a responsabilidade desse mesmo método para uma classe ou enum.
 
 
-Na sequência aplicamos o principio Tell, Don't ask and e o Fail Fast, que consiste em dar prioridade a falha que poderá ocorrer e eliminar os aninhamentos de ifs.
+Na sequência aplicamos o principio Tell, Don't Ask e o Fail Fast, que consiste em dar prioridade a falha que poderá ocorrer e eliminar os aninhamentos de ifs.
 
 *Passos realizados :*
 * Ao iniciar a refatoração do método, verificamos se em seu escopo possui alguma validação a ser executada como um aninhamento de ifs. 
