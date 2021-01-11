@@ -18,11 +18,11 @@ O código abaixo já está implementando o padrão :
     NotaFiscal nf = new NotaFiscal();
     double valor = nf.calculaValorImposto();
 
-É obvio que a implementação está dentro do calculaValorImposto, pois não temos como fugir da regra, mas desta forma estamos delegando para a classe responsável. Sempre que tivermos código seguindo o primeiro exemplo, estamos aplicando o padrão procedural utilizado muito em linguagens como C.
+É obvio que a implementação está dentro do calculaValorImposto, pois não temos como fugir da regra, mas desta forma estamos delegando para a classe responsável. Sempre que tivermos código seguindo o padrão do primeiro exemplo, estamos aplicando o padrão procedural utilizado muito em linguagens como C.
 O principio poder ser utilizado para quebrar uma lógica ciclomática e transferir a responsabilidade desse mesmo método para uma classe ou enum.
-Ao refatorar o exemplo abaixo aplicamos o Fail Fast para dar prioridade a falha que poderá ocorrer e eliminar os aninhamentos de ifs.
 
 
+Na sequência aplicamos o principio Tell, Don't and e o Fail Fast, que consiste em dar prioridade a falha que poderá ocorrer e eliminar os aninhamentos de ifs.
 
 *Passos realizados :*
 * Ao iniciar a refatoração do método, verificamos se em seu escopo possui alguma validação a ser executada como um aninhamento de ifs. 
